@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="lbl_name">Tên</label> <br />
+        <input
+          type="text"
+          name="name"
+          id="lbl_name"
+          placeholder="Nhập tên..."
+          value=""
+        />
+      </div>
+      <div>
+        <label for="lbl_email">Email</label><br />
+        <input
+          type="email"
+          name="email"
+          id="lbl_email"
+          placeholder="Nhập email..."
+          value=""
+        />
+      </div>
+      <div>
+        <label for="lbl_age">Tuổi</label><br />
+        <input
+          type="number"
+          name="age"
+          id="lbl_age"
+          placeholder="Nhập tuổi..."
+          min="18"
+          max="35"
+          value=""
+        />
+      </div>
+      <div>
+        <label for="lbl_gender">Giới tính</label> <br />
+        <label>
+          <input type="radio" value="0" name="gender" /> Gới tính thứ 3
+        </label>
+        <label> <input type="radio" value="1" name="gender" /> Nam </label>
+        <label> <input type="radio" value="2" name="gender" /> Nữ </label>
+      </div>
+      <div>
+        <label for="lbl_noisinh">Nơi Sinh</label>
+        <select name="provides" id="provides">
+          <optgroup label="Miền Bắc">
+            <option value="1">Hà Nội</option>
+            <option value="2">Vĩnh Phúc</option>
+            <option value="3">Phú Thọ</option>
+          </optgroup>
+          <optgroup label="Miền Trung">
+            <option value="1">Thanh Hoá</option>
+            <option value="2">Nghệ An</option>
+            <option value="3">Hà Tĩnh</option>
+          </optgroup>
+          <optgroup label="Miền Nam">
+            <option value="1">Tp. Hồ Chí Minh</option>
+            <option value="2">Biên Hoà</option>
+          </optgroup>
+        </select>
+      </div>
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

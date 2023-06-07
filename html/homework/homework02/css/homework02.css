@@ -1,0 +1,19 @@
+.main{
+    width: 100%;
+    height: 150px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+span{
+    color: yellow;
+    
+}
+.btn{
+    background: yellow;
+    color: black;
+}
+.main:hover .btn{
+    cursor: pointer;
+    background: red;
+    color: aliceblue;
+}

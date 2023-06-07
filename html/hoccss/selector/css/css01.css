@@ -1,0 +1,35 @@
+.title{
+    color: greenyellow;
+}
+.main .content{
+    color: rgb(120, 13, 39);
+    width: 60%;
+}
+.new .content{
+    color: rgb(53, 14, 209);
+}
+.main > .content{
+    text-align: center;
+    width: 75%;
+    color: brown;
+}
+h1.title{
+    color: green;
+}
+h2.title{
+    color: gold;
+}
+
+p ~ ul{
+    background: pink;
+    color: green;
+}
+
+.content p ~ .children{
+    background: rgb(0, 0, 0);
+
+}
+
+.lists p + ul{
+    background: rebeccapurple;
+}

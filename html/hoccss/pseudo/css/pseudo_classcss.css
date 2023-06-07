@@ -1,0 +1,65 @@
+.btn{
+    width: 10%;
+    height: 20px;
+    background: red;
+    color: aliceblue;
+    border: none;
+}
+.btn:hover{
+    background: yellow;
+    color: black;
+}
+.btn:active, .btn:focus{
+    background: green;
+    color: azure;
+}
+
+.username:focus{
+    background: gray;
+    color: rgb(238, 238, 241);
+}
+
+/* .email:disabled{
+    background: black;
+}
+.email:disabled::placeholder{
+    color: azure;
+} */
+
+.email[disabled]{
+    background: black;
+}
+.email[disabled]::placeholder{
+    color: azure;
+}
+
+.products .item:not(.active){
+    color: red;
+}
+
+.products .item:first-child{
+    color: green;
+}
+.products .item:last-child{
+    color: blueviolet;
+}
+
+
+/*
+first of type để lấy item đầu tiên của 1 loại thẻ
+
+ví dụ: nó sẽ lấy thẻ h2 đầu tiên và css nó
+<h2 class="item">Item 1</h2>
+      <h1>Item0</h1>
+      <h2 class="item active">Item 2</h2>
+      <h2 class="item">Item 3</h2>
+      <h2 class="item active">Item 4</h2>
+      <h2 class="item">Item 5</h2>
+*/
+
+/*dùng 2n+2 để css các thẻ chẵn
+dùng nth of type để css cùng loại thẻ
+*/
+.products .item:nth-child(4){
+    color: blue;
+}

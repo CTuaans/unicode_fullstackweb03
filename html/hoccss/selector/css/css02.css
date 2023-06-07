@@ -1,0 +1,20 @@
+p input:checked ~ span{
+    color: rgb(16, 211, 100);
+}
+
+.website a[href="https://unicode.vn"]{
+    color: rgb(185, 14, 71);
+}
+
+.website a[target]{
+    color: green;
+}
+
+.website a[href^="https://youtube.com"]{
+    color: rgb(34, 14, 185);
+}
+
+.website a[href *="nettruyen"]{
+    color: rgb(232, 243, 23);
+    background-color: rgb(20, 197, 233);
+}

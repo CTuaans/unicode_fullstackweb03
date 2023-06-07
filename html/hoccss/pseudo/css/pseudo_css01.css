@@ -1,0 +1,24 @@
+h1::before{
+    content: '_';
+}
+h1::after{
+    content: '_';
+}
+p::first-letter{
+    color: red;
+}
+p::first-line{
+    color: green;
+}
+p::selection{
+    background-color: black;
+    color: yellow;
+}
+input::placeholder{
+    font-style: italic;
+    color: blueviolet;
+}
+
+input{
+    color: blue;
+}
