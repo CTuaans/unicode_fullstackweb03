@@ -1,0 +1,12 @@
+html{
+    overflow-y: scroll;
+}
+.content{
+    border: 1px solid red;
+    height: 200px;
+    overflow: auto;
+}
+.content ul li:hover{
+    background: red;
+    color: #fff;
+}

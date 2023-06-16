@@ -1,0 +1,21 @@
+.content{
+    border: 1px red solid;
+    background: rgba(137, 43, 226, 0.525);
+    color: aqua;
+}
+.content h1, .content .image{
+    text-align: center;
+}
+.gallery{
+    text-align: center;
+}
+.gallery img:hover{
+    filter: grayscale(100%);
+}
+
+.map iframe{
+    filter: grayscale(1);
+}
+.map iframe:hover{
+    filter: initial;
+}

@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 17px;
+}
+body{
+    background: #e6e6e6;
+    line-height: 1.2;
+}
+.required{
+    color: red;
+}
+.form{
+    width: 450px;
+    background: #fff;
+    margin: 30px auto;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+.form .title{
+    border: 1px;
+    padding: 20px 40px 20px 40px;
+    background: rgba(128, 128, 128, 0.426);
+    text-align: left;
+}
+label{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.item{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+textarea.item{
+    
+}
+.btn{
+  
+    
+}

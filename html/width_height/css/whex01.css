@@ -1,0 +1,10 @@
+.content{
+    border: 1px blueviolet solid;
+    height: 75%0;
+    width: 50%;
+}
+.text{
+    border: 1px solid red;
+    height: 50px;
+    width: 100%;
+}

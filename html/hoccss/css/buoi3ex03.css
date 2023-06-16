@@ -1,0 +1,11 @@
+.content{
+    background: gray;
+
+}
+.content:hover .element:nth-child(2n+1){
+    color: red;
+}
+
+.content .element:nth-child(n):hover{
+    color: purple;
+}

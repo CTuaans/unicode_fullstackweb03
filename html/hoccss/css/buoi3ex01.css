@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url(../fonts/WorkSans-Italic.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Work Sans";
+    src: url(../fonts/WorkSans-Light.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Work Sans";
+    src: url(../fonts/WorkSans-Bold.ttf);
+    font-weight: bold;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 20px;
+}
+
+.one{
+    color: red;
+    font-size: 1.2em;
+    font-family: Arial;
+}
+.two{
+    color: purple;
+    font-size: 1.5em;
+    font-family: "Work Sans";
+}
+.three{
+    color: green;
+    font-size: 1.25rem;
+}

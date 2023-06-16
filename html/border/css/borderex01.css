@@ -1,0 +1,12 @@
+.content{
+    /* border-width: 5px;
+    border-style: double;
+    border-color: red; */
+    /* border: blueviolet 5px double; */
+    border: 5px double;
+    border-top-color: green ;
+    border-left-color: red ;
+    border-right-color: purple ;
+    border-bottom-color: blue ;
+    border-radius: 5px 10px 40px 10px;
+}
